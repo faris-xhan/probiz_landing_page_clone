@@ -1,0 +1,124 @@
+* {
+   margin: 0;
+   padding: 0;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
+header, footer {
+   padding: 300px;
+   background-image: url(https://probiz.demos.wpbeaverbuilder.com/wp-content/uploads/sites/20/2016/02/biz-header-2.jpg);
+   background-position: center center;
+   background-size: cover;
+   text-align: center;
+}
+
+footer {
+   padding: 200px;
+}
+
+.mainHeadings, .subHeadings{
+   text-transform: uppercase;
+   font-family: sans-serif;
+   color: white;
+   font-weight: bold;
+   font-size: 30px;
+}
+
+.subHeadings {
+   font-size: 70px;
+}
+
+button {
+   padding: 26px 48px;
+   margin-top: 20px;
+   font-family: sans-serif;
+   font-size: 18px;
+   background-color: crimson;
+   color: white;
+   border-radius: 3px;
+   border: none;
+}
+button:hover {
+   background: #334355;
+   border: 1px solid black;
+}
+footer {
+   background: #2C3C4C ;
+}
+
+.contents {
+   padding: 200px;
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.contents article {
+   padding: 20px;
+   text-align: center;
+}
+
+.contents:nth-child(2) {
+   background: #2C3C4C;
+}
+
+.contents:nth-child(3), .contents:nth-child(5){
+   background: #edf2f4
+}
+
+#section2-article {
+   float: right;
+   text-align: left;
+   color: white;
+}
+
+#section2-article h1{
+   font-size: 30px;
+}
+
+#section2-article p {
+   font-size: 20px;
+}
+
+.contents img {
+   display: block;
+   float: left;
+   padding: 20px;
+}
+
+.contents:nth-child(4){
+   display: flex;
+   flex-direction: column;
+
+}
+
+
+#s4-all-articles {
+   display: flex;
+
+}
+
+#s4-all-articles h1 {
+   text-transform: uppercase;
+
+}
+
+.clients {
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   background: #edf2f4;
+   text-align: center;
+   padding: 200px;
+}
+
+.clients h1 {
+   text-transform: uppercase;
+   font-size: 38px;
+   font-family: sans-serif;
+}
+.clients img {
+   display: block;
+   width: 920px;
+   margin-top: 40px;
+}
